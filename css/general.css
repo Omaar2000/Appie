@@ -1,0 +1,89 @@
+/* - Primary: #0E1133
+- Tints:
+
+
+- Shades: 
+
+
+- Accents:
+- Greys
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #0e1133;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/******************/
+/* General Components */
+/******************/
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  color: #0e1133;
+
+  letter-spacing: -0.5px;
+  font-weight: 400;
+}
+
+.heading-primary {
+  font-size: 6.6rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}
+
+.heading-primary span {
+  font-weight: 700;
+}
+
+.heading-secondary {
+  font-size: 4.8rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+.heading-tertiary {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.subheading {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #0e1133;
+  /* text-transform: uppercase; */
+  margin-bottom: 4.4rem;
+  /* letter-spacing: 0.75px; */
+}
+
+.grid {
+  display: grid;
+  /* gap: 4rem; */
+}
+
+.grid--3cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--2cols {
+  grid-template-columns: repeat(2, 1fr);
+}
